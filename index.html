@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<!-- setup -->
+<html lang="en">
+<link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+<link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+<head>
+  <meta charset="UTF-8">
+  <title>SGAT</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+  <!--Browser Theming -->
+  <meta name="theme-color" content="#37383F">
+  <meta name="msapplication-navbutton-color" content="#37383F">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#37383F">
+</head>
+
+<!-- setup -->
+
+<canvas id="c"></canvas>
+<script src="js/index.js"></script>
+
+<div class="boxcontainer clickable">
+  <div class="box clickable" id="box" style="display: block;">
+    <h1 class="title unclickable">SGAT</h1>
+    <center>
+      <label for="genome" class="cool unclickable">
+        Upload File
+        <input class="button unclickable" type="file" id="genome" name="myfile">
+      </label>
+      <br><br>
+      <label for="submit" class="cool unclickable">
+        Analyze
+        <a href="./sam.html">
+          <button id="submit" class="invis">Analyze</button>
+        </a>
+      </label>
+    </center>
+  </div>
+</div>
+</body>
+
+</html>
